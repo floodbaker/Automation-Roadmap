@@ -1,10 +1,3 @@
-"""sayiAtama ve sayiOkusu isimli 2 tane fonksiyon tanımlayın
-bu fonksiyonlardan sayiAtama fonksiyonu 2 basamaklı bi sayiyı
-parametre olarak alabilecek ve fonksiyon içinde bu değer bir değişkene atanacak.
-Daha sonra sayiAtama fonksiyonu içinde sayiOkunusu isimli fonksiyon çağırılarak
-değişkene atanan sayinın okunuşu string olarak verilecek. sayiAtama fonksiyonu
-2 basamaktan az yada daha fazla sayiyı kabul etmeyecek. """
-
 sayi = int(input("Okunuşunu öğrenmek istediğiniz sayıyı giriniz: "))
 
 

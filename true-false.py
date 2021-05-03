@@ -1,14 +1,3 @@
-"""50 soruluk, 4 yanlışın 1 doğruyu götürdüğü sınavda öğrencinin
-inputlarla girilen doğru yanlış sayısına göre aldığı puanı
-hesaplayan programı yazınız. Ogrenci sınıfı diye bir sınıf tanımlanacak.
-Bu sınıfın içinde ogrenciAdı, ogrenciSoyadı, ogrenciSınıf’ı değişkenleri bulunacak.
-Bu sınıftan nesne oluşturulurken bu bilgiler parametre olarak verilecek.  Soru diye bir sınıfınız olacak.
-Bu sınıfın NetSayısı(...) ve Hesapla(...) diye iki fonksiyon olacak.
-NetSayısı fonksiyonu doğru ve yanlış sayısını parametre olarak alıp öğrencinin kaç neti olduğunu bulur.
-Hesapla fonksiyonu net sayısını parametre olarak alıp öğrencinin puanını hesaplayacak. Her net 2 puan.
-En sonunda öğrenci bilgileri ve puanı console gösterilecek."""
-
-
 class Ogrenci:
     def __init__(self, ogrenciAdi, ogrenciSoyadi, ogrenciSinifi):
         self.ad = ogrenciAdi

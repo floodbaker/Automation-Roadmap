@@ -1,12 +1,3 @@
-"""Insan isimli bir sınıf tanımlayınız. Bütün constructor parametreleri default değerlere sahip olacak,
-default contructor (init) içinde belirlenecek.  Bu değerler; ad,soyad,yas,ulke,sehir olacak.
-Ek olarak yetenekler isimli bir boş dizi init fonksiyonu içinde tanımlanacak.
-kisi_bilgileri isimli fonksiyon ile init fonksiyonu içinde belirlenen kisi bilgileri return’le dönülecek.
-yetenek_ekle isimli fonksiyon ile init fonksiyonu içinde belirlenen yetenekler dizisine yetenekler eklenecek.
-Bu classtan belirtilen bilgileri içeren bir nesne tanımlayın.
-Tanımlanan nesneye yetenek ekleyin. (Bisiklete binmek, Python vs.)
-kisi_bilgileri fonksiyonu ile bu bilgileri gösterin."""
-
 class Person:
 
     def __init__(self, ad, soyad, yas, ulke, sehir):
